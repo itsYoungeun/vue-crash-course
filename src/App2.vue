@@ -1,3 +1,5 @@
+<!-- Vue 2 Options API -->
+
 <script>
 export default {
   data() {
