@@ -27,7 +27,7 @@ onMounted(async () => {
     } finally {
         state.isLoading = false;
     }
-})
+});
 </script>
 
 <template>
