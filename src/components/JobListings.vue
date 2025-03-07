@@ -1,7 +1,7 @@
 <script setup>
 import jobData from '@/jobs.json';
 import JobListing from './JobListing.vue';
-import { ref, defineProps } from 'vue';
+import { ref } from 'vue';
 
 defineProps({
     limit: Number,
