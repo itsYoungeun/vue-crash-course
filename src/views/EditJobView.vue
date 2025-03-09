@@ -50,8 +50,8 @@ const handleSubmit = async () => {
     toast.success('Job Updated Successfully');
     router.push(`/jobs/${response.data.id}`);
   } catch (error) {
-    console.error('Error fetching job', error);
-    toast.error('Job Was Not Added');
+    console.error('Error updating job', error);
+    toast.error('Job Was Not Updated');
   }
 };
 
